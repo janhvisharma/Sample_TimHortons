@@ -1,0 +1,172 @@
+/*
+Janhvi Sharma
+*/
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../_images/backp.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#index{
+    height: 714px;
+}
+#content{
+    background-color: whitesmoke;
+    position: absolute;
+    margin-bottom: 100px;
+    border: 1px solid black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:600px;
+    height: 714px;
+    display: block;
+}
+#img1{
+    display: block;
+    height: auto;
+    max-width: 50%;
+    padding: 10px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+h1,h2{
+    text-align: center;
+    font-family: helvetica;
+    color: darkred;
+    margin: 0;
+    font-style: italic;
+}
+h3{
+    text-align: center;
+    font-family: helvetica;
+    font-size: 22px;
+    color: darkred;
+}
+#box{
+    border: 2px solid chocolate;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 300px;
+}
+#data{
+    padding: 10px 12px 10px 20px;
+    font: 13px Arial, Helvetica, sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    text-align:center;
+}
+label{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: #333;
+    height: 20px;
+    width: 220px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: right;
+    clear: both;
+    float:left;
+    margin-right:15px;
+}
+input[type="number"], select {
+    height: 20px;
+    width: 100px;
+    border: 1px solid #000;
+    margin-top: 10px;
+    float: left;
+}
+select{
+    height: 23px;
+    width: 120px;
+}
+#buttons{
+    padding: 80px;
+    height: 20px;
+    width: 220px;
+    margin-top: 15px;
+    margin-left: auto;
+}
+input[type="submit"]{
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:1.5em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-size: 1em;
+    color:#000;
+    background-color:tan;
+    text-align:center;
+    transition: all 0.2s;
+}
+input[type="submit"]:hover{
+    background-color:wheat;
+}
+#img2{
+    display: inline-block;
+    height: 140px;
+    width: 70%;  
+    margin-top: 20px;
+    float: right;
+    width: 33%;
+}
+#img1{
+    display: block;
+    height: auto;
+    max-width: 50%;
+    padding: 10px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+h1,h2{
+    text-align: center;
+    font-family: helvetica;
+    color: darkred;
+    margin: 0;
+    font-style: italic;
+}
+.coffee {
+    padding: 10px;
+    margin-left: 350px;
+    background-color: white;
+    border:3px solid black;
+    width: 50%;
+    height: 50%;
+    display: block;
+    
+}
+.small-img {
+    width: 10%;
+    height: 15%;
+}
+.med-img{
+    width:15%;
+    height: 20%;
+}
+.large-img{
+    width:20%;
+    height: 25%;
+}
+.xlarge-img{
+    width:25%;
+    height: 30%;
+}
+.order-img{
+    width:10%;
+}
+#cost{
+    font-family: helvetica;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    color: darkred;
+    margin: 0;
+}
+
